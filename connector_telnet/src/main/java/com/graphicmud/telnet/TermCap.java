@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.nio.charset.Charset;
 

@@ -1,15 +1,15 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.io.IOException;
 import java.lang.System.Logger;
 
 import org.prelle.ansi.ANSIOutputStream;
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 
 import com.graphicmud.dialog.DialogueTree;
 import com.graphicmud.map.ViewportMap;
 import com.graphicmud.network.interaction.Table;
 import com.graphicmud.symbol.Symbol;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
 import com.graphicmud.world.Surrounding;
 
 /**

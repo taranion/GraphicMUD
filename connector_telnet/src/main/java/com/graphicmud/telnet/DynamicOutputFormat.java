@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
@@ -28,7 +28,6 @@ import org.prelle.ansi.commands.iterm.SendITermImage;
 import org.prelle.ansi.commands.kitty.KittyGraphicsFragment;
 import org.prelle.ansi.commands.kitty.KittyImageTransmission;
 import org.prelle.ansi.control.CursorControls;
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 import org.prelle.mudansi.FormatUtil;
 import org.prelle.mudansi.MarkupElement;
 import org.prelle.mudansi.MarkupParser;
@@ -56,6 +55,7 @@ import com.graphicmud.player.ImageProtocol;
 import com.graphicmud.symbol.Symbol;
 import com.graphicmud.symbol.SymbolManager;
 import com.graphicmud.symbol.TileGraphicService;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
 import com.graphicmud.world.Surrounding;
 import com.graphicmud.world.text.Direction;
 
@@ -97,7 +97,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#initialize(com.graphicmud.network.ClientConnection, org.prelle.ansi.ANSIOutputStream)
+	 * @see com.graphicmud.telnet.OutputFormat#initialize(com.graphicmud.network.ClientConnection, org.prelle.ansi.ANSIOutputStream)
 	 */
 	@Override
 	public void initialize(TelnetClientConnection con, ANSIOutputStream out) throws IOException {		
@@ -107,7 +107,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#configureSize(int, int, java.lang.System.Logger)
+	 * @see com.graphicmud.telnet.OutputFormat#configureSize(int, int, java.lang.System.Logger)
 	 */
 	@Override
 	public void configureSize(int width, int height, Logger logger) {
@@ -121,7 +121,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendMapOnly(int[][])
+	 * @see com.graphicmud.telnet.OutputFormat#sendMapOnly(int[][])
 	 */
 	@Override
 	public void sendMapOnly(ViewportMap<Symbol> mapData) throws IOException {
@@ -214,7 +214,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendRoom(com.graphicmud.world.Surrounding)
+	 * @see com.graphicmud.telnet.OutputFormat#sendRoom(com.graphicmud.world.Surrounding)
 	 */
 	@Override
 	public void sendRoom(Surrounding room) throws IOException {
@@ -399,7 +399,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendTable(com.graphicmud.network.interaction.Table)
+	 * @see com.graphicmud.telnet.OutputFormat#sendTable(com.graphicmud.network.interaction.Table)
 	 */
 	@Override
 	public <E> void sendTable(Table<E> table) throws IOException {
@@ -500,7 +500,7 @@ public class DynamicOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendDialog(com.graphicmud.dialog.DialogueTree, java.lang.String)
+	 * @see com.graphicmud.telnet.OutputFormat#sendDialog(com.graphicmud.dialog.DialogueTree, java.lang.String)
 	 */
 	@Override
 	public <E> void sendDialog(DialogueTree tree, String image) throws IOException {

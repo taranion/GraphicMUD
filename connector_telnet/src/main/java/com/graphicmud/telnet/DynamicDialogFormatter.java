@@ -1,14 +1,14 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 /**
  * 
  */
-public class MXPFramesOutputFormat extends SimpleMapWithTextFormat {
+public class DynamicDialogFormatter {
 
 	//-------------------------------------------------------------------
 	/**
 	 */
-	public MXPFramesOutputFormat() {
+	public DynamicDialogFormatter() {
 		// TODO Auto-generated constructor stub
 	}
 

@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.io.IOException;
 import java.lang.System.Logger;
@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 import org.prelle.mudansi.FormatUtil;
 import org.prelle.mudansi.MarkupParser;
 
@@ -19,6 +18,7 @@ import com.graphicmud.map.ANSIMapper;
 import com.graphicmud.map.ANSIMapper.ColorMapping;
 import com.graphicmud.map.ANSIMapper.GraphemeMapping;
 import com.graphicmud.network.MUDClientCapabilities.Color;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
 import com.graphicmud.world.Surrounding;
 
 public class SimpleMapWithTextFormat extends ANSIOutputFormat {

@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet.impl;
+package com.graphicmud.telnet.impl;
 
 import java.io.IOException;
 import java.lang.System.Logger;

@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -23,9 +23,6 @@ import org.prelle.ansi.commands.SetLeftAndRightMargin;
 import org.prelle.ansi.commands.SetTopAndBottomMargin;
 import org.prelle.ansi.control.AreaControls;
 import org.prelle.ansi.control.XTermOSControls;
-import org.prelle.mud.telnet.impl.ANSIArtMapConverter;
-import org.prelle.mud.telnet.impl.ANSIArtMapConverter.UseSymbol;
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 import org.prelle.mudansi.FormatUtil;
 import org.prelle.mudansi.MarkupElement;
 import org.prelle.mudansi.MarkupParser;
@@ -42,6 +39,9 @@ import com.graphicmud.network.MUDClientCapabilities.Color;
 import com.graphicmud.network.interaction.Table;
 import com.graphicmud.network.interaction.TableColumn;
 import com.graphicmud.symbol.Symbol;
+import com.graphicmud.telnet.impl.ANSIArtMapConverter;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
+import com.graphicmud.telnet.impl.ANSIArtMapConverter.UseSymbol;
 import com.graphicmud.world.Surrounding;
 import com.graphicmud.world.text.Direction;
 
@@ -92,7 +92,7 @@ public class ANSIOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#configureSize(int, int, java.lang.System.Logger)
+	 * @see com.graphicmud.telnet.OutputFormat#configureSize(int, int, java.lang.System.Logger)
 	 */
 	@Override
 	public void configureSize(int width, int height, Logger logger) {
@@ -228,7 +228,7 @@ public class ANSIOutputFormat implements OutputFormat {
 	
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendMapOnly(int[][])
+	 * @see com.graphicmud.telnet.OutputFormat#sendMapOnly(int[][])
 	 */
 	@Override
 	public void sendMapOnly(ViewportMap<Symbol> data) throws IOException {
@@ -249,7 +249,7 @@ public class ANSIOutputFormat implements OutputFormat {
 	//-------------------------------------------------------------------
 	/**
 	 * @throws IOException 
-	 * @see org.prelle.mud.telnet.OutputFormat#sendTable(com.graphicmud.network.interaction.Table)
+	 * @see com.graphicmud.telnet.OutputFormat#sendTable(com.graphicmud.network.interaction.Table)
 	 */
 	@Override
 	public <E> void sendTable(Table<E> table) throws IOException {
@@ -377,7 +377,7 @@ public class ANSIOutputFormat implements OutputFormat {
 
 	//-------------------------------------------------------------------
 	/**
-	 * @see org.prelle.mud.telnet.OutputFormat#sendDialog(com.graphicmud.dialog.DialogueTree, java.lang.String)
+	 * @see com.graphicmud.telnet.OutputFormat#sendDialog(com.graphicmud.dialog.DialogueTree, java.lang.String)
 	 */
 	@Override
 	public <E> void sendDialog(DialogueTree tree, String image) throws IOException {

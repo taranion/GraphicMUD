@@ -1,7 +1,7 @@
 /**
  *
  */
-package org.prelle.mud.telnet.impl;
+package com.graphicmud.telnet.impl;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
@@ -56,13 +56,6 @@ import org.prelle.ansi.commands.iterm.SendITermImage;
 import org.prelle.ansi.commands.kitty.KittyGraphicsFragment;
 import org.prelle.ansi.commands.kitty.KittyImageTransmission;
 import org.prelle.ansi.control.AreaControls;
-import org.prelle.mud.telnet.ANSIOutputFormat;
-import org.prelle.mud.telnet.DumbTerminalVisualizedMenu;
-import org.prelle.mud.telnet.DynamicOutputFormat;
-import org.prelle.mud.telnet.OutputFormat;
-import org.prelle.mud.telnet.SimpleMapWithTextFormat;
-import org.prelle.mud.telnet.TelnetConnector;
-import org.prelle.mud.telnet.gmcp.GMCP;
 import org.prelle.mud4j.gmcp.GMCPManager;
 import org.prelle.mud4j.gmcp.Char.Vitals;
 import org.prelle.mudansi.CapabilityDetector;
@@ -126,6 +119,13 @@ import com.graphicmud.network.interaction.VisualizedMenu;
 import com.graphicmud.player.ConfigOption;
 import com.graphicmud.player.ImageProtocol;
 import com.graphicmud.symbol.Symbol;
+import com.graphicmud.telnet.ANSIOutputFormat;
+import com.graphicmud.telnet.DumbTerminalVisualizedMenu;
+import com.graphicmud.telnet.DynamicOutputFormat;
+import com.graphicmud.telnet.OutputFormat;
+import com.graphicmud.telnet.SimpleMapWithTextFormat;
+import com.graphicmud.telnet.TelnetConnector;
+import com.graphicmud.telnet.gmcp.GMCP;
 import com.graphicmud.world.Location;
 import com.graphicmud.world.NoSuchPositionException;
 import com.graphicmud.world.Surrounding;

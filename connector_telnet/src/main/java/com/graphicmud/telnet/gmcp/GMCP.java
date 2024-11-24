@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet.gmcp;
+package com.graphicmud.telnet.gmcp;
 
 import java.io.IOException;
 import java.lang.System.Logger;
@@ -10,8 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.prelle.mud.telnet.impl.GMCPSoundClient;
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 import org.prelle.mud4j.gmcp.Char.Vitals;
 import org.prelle.mud4j.gmcp.CharLogin.Credentials;
 import org.prelle.mud4j.gmcp.CharLogin.Result;
@@ -40,6 +38,8 @@ import com.graphicmud.network.ConnectionVariables;
 import com.graphicmud.player.PlayerAccount;
 import com.graphicmud.player.PlayerCharacter;
 import com.graphicmud.symbol.Symbol;
+import com.graphicmud.telnet.impl.GMCPSoundClient;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
 import com.graphicmud.world.Surrounding;
 import com.graphicmud.world.text.Direction;
 import com.graphicmud.world.text.Exit;

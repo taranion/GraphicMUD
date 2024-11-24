@@ -1,12 +1,12 @@
-package org.prelle.mud.telnet.impl;
+package com.graphicmud.telnet.impl;
 
 import java.io.IOException;
 
-import org.prelle.mud.telnet.gmcp.GMCP;
 import org.prelle.mud4j.gmcp.Client.ClientMediaPlay;
 
 import com.graphicmud.MUD;
 import com.graphicmud.media.SoundClient;
+import com.graphicmud.telnet.gmcp.GMCP;
 import com.graphicmud.web.WebServer;
 
 /**

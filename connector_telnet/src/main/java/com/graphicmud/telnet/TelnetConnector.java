@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet;
+package com.graphicmud.telnet;
 
 import java.io.IOException;
 import java.lang.System.Logger;
@@ -6,7 +6,6 @@ import java.lang.System.Logger.Level;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.prelle.mud.telnet.impl.TelnetClientConnection;
 import org.prelle.mud4j.gmcp.GMCPManager;
 import org.prelle.mud4j.gmcp.Char.CharPackage;
 import org.prelle.mud4j.gmcp.CharLogin.CharLoginPackage;
@@ -23,6 +22,7 @@ import org.prelle.telnet.TelnetSocket;
 
 import com.graphicmud.network.MUDConnector;
 import com.graphicmud.network.MUDConnectorListener;
+import com.graphicmud.telnet.impl.TelnetClientConnection;
 
 /**
  *

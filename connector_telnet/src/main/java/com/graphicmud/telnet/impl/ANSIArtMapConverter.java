@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet.impl;
+package com.graphicmud.telnet.impl;
 
 import java.lang.System.Logger;
 import java.lang.System.Logger.Level;

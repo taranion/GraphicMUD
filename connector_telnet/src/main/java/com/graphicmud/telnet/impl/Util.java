@@ -1,4 +1,4 @@
-package org.prelle.mud.telnet.impl;
+package com.graphicmud.telnet.impl;
 
 import java.util.Timer;
 import java.util.TimerTask;
