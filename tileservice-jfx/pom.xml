@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.graphicmud</groupId>
+        <artifactId>graphicmud-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+  	<artifactId>tile-service-jfx</artifactId>
+  	<name>TileService-JFX</name>
+
+	<properties>
+		<javafx.version>22.0.2</javafx.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+            <groupId>com.graphicmud</groupId>
+            <artifactId>graphicmud-core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.prelle</groupId>
+                    <artifactId>mudansi</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.prelle</groupId>
+                    <artifactId>simple-persist</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>de.rpgframework</groupId>
+                    <artifactId>rpgframework-rules</artifactId>
+                </exclusion>
+            </exclusions>
+	  	</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-base</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+	  <plugins>
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.13.0</version>
+          <configuration>
+			<annotationProcessorPaths>
+				<path>
+					<groupId>org.projectlombok</groupId>
+					<artifactId>lombok</artifactId>
+					<version>1.18.32</version>
+				</path>
+			</annotationProcessorPaths>
+          </configuration>
+        </plugin>
+	  </plugins>
+	</build>
+</project>

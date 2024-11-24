@@ -19,6 +19,8 @@
         <module>connector_websocket</module>
         <module>mudansi</module>
         <module>plugin-socials</module>
+        <module>tileservice-jfx</module>
+        <module>tileservice-swing</module>
 	</modules>
 
 
