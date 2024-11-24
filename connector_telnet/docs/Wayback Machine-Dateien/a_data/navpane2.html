@@ -1,0 +1,184 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script type="text/javascript" src="../bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://pueblo.sourceforge.net:80/doc/manual/navpane2.html","20031222194429","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1072122269");
+</script>
+<link rel="stylesheet" type="text/css" href="../banner-styles.css">
+<link rel="stylesheet" type="text/css" href="../iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Contents</title>
+<!-- version 4.00.01 -->
+<script language="JavaScript1.2" archive="nsdnsfix.jar" id="ChangeProfileScriptinNavPane2"> var sd_strAgent	= navigator.userAgent.toLowerCase(); 	var sd_strVersion  = navigator.appVersion.toLowerCase();  var sd_nVerMajor	= parseInt(sd_strVersion);  var	sd_nVerMinor	= parseFloat(sd_strVersion); var	sd_bNS	    = ((sd_strAgent.indexOf("mozilla") != -1) && ((sd_strAgent.indexOf('spoofer') == -1) && (sd_strAgent.indexOf('compatible') == -1))); var 	sd_bNS4			= ((sd_bNS) && (sd_nVerMajor >= 4)); if (sd_nVerMinor == 4.60) 	{  netscape.security.PrivilegeManager.enablePrivilege("UniversalPreferencesRead");  var sd_prefValue = navigator.preference("security.lower_java_network_security_by_trusting_proxies"); if (!sd_prefValue) { alert("There are some limitations in Netscape 4.6. Please download and install the latest version of Netscape. Your current Netscape profile needs to be modified. Select 'Remember this decision' and click 'Grant' when prompted to allow the modifications. Click OK to proceed."); netscape.security.PrivilegeManager.enablePrivilege("UniversalPreferencesWrite"); navigator.preference("security.lower_java_network_security_by_trusting_proxies", true); alert("Please restart Netscape"); window.close(); } } </script>
+<script language="JavaScript">
+<!--
+var strAgent   = navigator.userAgent.toLowerCase();
+var strVersion = navigator.appVersion.toLowerCase();
+
+var gnVerMajor = parseInt(strVersion);
+var gnVerMinor = parseFloat(strVersion);
+
+var gbNS      = ((strAgent.indexOf("mozilla") != -1) && ((strAgent.indexOf('spoofer') == -1) && (strAgent.indexOf('compatible') == -1)));
+var gbIE      = (strAgent.indexOf("msie") != -1);
+var gbOpera   = (strAgent.indexOf("opera") != -1);
+var gbHotJava = (strVersion.indexOf("hotjava") != -1);
+var gbSunOS   = (strAgent.indexOf("sunos") != -1);
+
+var gbWin16   = ((strVersion.indexOf("win16") != -1) || (strVersion.indexOf("windows 3.1") != -1));
+var gbWindows = ((strAgent.indexOf("win") != -1) || (strAgent.indexOf("16bit") != -1));
+var gbMac     = (strAgent.indexOf("mac") != -1);
+var gbWebTV   = (strAgent.indexOf("webtv") != -1);
+
+var gbNS2         = ((gbNS) && (gnVerMajor == 2));
+var gbNS3         = ((gbNS) && (gnVerMajor == 3));
+var gbNS4         = ((gbNS) && (gnVerMajor >= 4));
+var gbIE4         = ((gbIE) && (gnVerMajor >= 4));
+var gbIE3         = ((gbIE) && (gnVerMajor <= 3));
+var gbIE302before = ((gbIE3) && ((strAgent.indexOf("3.00") != -1)||(strAgent.indexOf("3.0a") != -1)||(strAgent.indexOf("3.0b")!=-1)||(strAgent.indexOf("3.01")!=-1))); 
+var gbIE302       = ((gbIE3) && (strAgent.indexOf("3.02") != -1));
+var gbNS460       = ((gbNS4) && (gnVerMinor == 4.60));
+
+var gbLoading = "unknown";
+var gbTryTime = 0;
+var gbMaxTryTime = 6;
+
+window.onerror = null;
+
+if (gbNS4 && gbWindows) {
+	setTimeout("CheckLoadingPhase0()", 1000);
+}
+
+var gbPassPhase0 = 0;
+
+function CheckLoadingPhase0()
+{
+	if (!gbPassPhase0) {
+		setTimeout("CheckLoadingPhase0()", 1000);
+		document.applets[0];
+		gbPassPhase0 = 1;
+	}
+	else {
+		CheckLoadingPhase1();
+	}
+}
+
+function CheckLoadingPhase1()
+{
+	if (gbNS4) {
+		if ("unknown" == gbLoading && document.readystate < 4) {
+			setTimeout("CheckLoadingPhase1()", 1000);
+		}
+		else if ("unknown" == gbLoading) {
+			CheckLoadingPhase2();
+		}
+	}
+}
+
+function CheckLoadingPhase2()
+{
+	if (gbNS4) {
+		gbTryTime ++;
+		if ("unknown" == gbLoading) {
+			if (gbTryTime <= gbMaxTryTime )
+				setTimeout("CheckLoadingPhase2()", 1000);
+			else {
+				if (gnVerMinor != 4.60) {
+					if (gnVerMinor >= 4.06)
+						document.location.href = "nsdnsfix.htm"
+					else {
+						alert("Unable to load applet. If you are using an old version of Netscape, the prefs.js file needs to be edited.");
+					}
+				}
+			}	
+		}
+	}
+}
+
+
+//-->
+</script>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" bgcolor="C0C0C0">
+<script language="JavaScript">
+<!--
+var strWrite = "";
+
+if (gbIE4) 
+{
+  //IE4 can get correct height/width on both reloading and resizing (will redraw the applet) now we still need mayscript to redirect topic.
+  strWrite += "<applet code=WebHelp.class name=webhelp  archive=webhelp.zip width=100% height=100% MAYSCRIPT hspace=0 vspace=0>";
+} 
+else if ((gbNS4 && !gbMac) && (!gbNS460) && (!gbSunOS) ) 
+{
+  //NS4 can get correct height/width on loading, and when resize it can call javascript to get heigh/width to redraw.
+  strWrite += "<applet code=WebHelp.class name=webhelp  archive=webhelp.jar width=100% height=100% MAYSCRIPT hspace=0 vspace=0>";
+}
+else if ((gbNS460 && !gbMac) || gbSunOS )
+{
+  //NS460 can get correct height/width on loading, the homepage will automatical reload the applet. (NS460 has trouble to get size via javascript)
+  strWrite += "<applet code=WebHelp.class name=webhelp  archive=webhelp.jar width=100% height=100% MAYSCRIPT hspace=0 vspace=0>";
+}
+else if (gbNS3 || gbIE302 || (gbNS4 && gbMac))
+{
+   //NS3 can get correct initial height/width. can not automatically adjust size when resizing (have to reload manually)
+   //IE302 can get correct initial height/width. can not automatically adjust size when resizing (have to reload manually)
+   strWrite += "<applet code=WebHelp.class name=webhelp  archive=webhelp0.zip width=100% height=100% MAYSCRIPT hspace=0 vspace=0>";
+}
+else 
+{
+   //fixed size always: 
+   //1) homepage do not know how to reload.
+   //2) can not recongnize the percentage of height and with as parameter for applet
+   strWrite += "<applet code=WebHelp.class name=webhelp archive=webhelp0.zip width=260 height=310 hspace=0 vspace=0>";
+}
+
+strWrite += "<PARAM name=Command value=NavPane>";;
+strWrite += "<PARAM name=CurrentTab value=Contents>";
+if (gbIE4 || (gbNS4 && !gbMac))
+   strWrite += "<PARAM name=ContentsFile value=index.hhc.zip><PARAM name=IndexFile value=index.hhk.zip><PARAM name=SearchFile value=index.hhs.zip><PARAM name=ResourceFile value=webhelp.res>";
+else
+   strWrite += "<PARAM name=ContentsFile value=index.hhc><PARAM name=IndexFile value=index.hhk><PARAM name=SearchFile value=index.hhs><PARAM name=ResourceFile value=webhelp.res>";
+strWrite += "<PARAM name=Frame value=bsscright>";
+if (location.hash.length > 0)
+  strWrite += "<PARAM name=SyncContentTopic value=" + location.hash.substring(1, location.hash.length) + ">";
+strWrite += "<PARAM name=BrowserVersion value=" + gnVerMinor +">";
+if (gbIE) {
+	if (gbIE4)
+		 strWrite += "<PARAM name=cabbase value=webhelp.cab>";
+	else
+		 strWrite += "<PARAM name=cabbase value=webhelp0.cab>";
+}
+
+strWrite += "</applet>";
+document.write(strWrite);
+//-->
+</script><applet code="WebHelp.class" name="webhelp" archive="webhelp.jar" width="100%" height="100%" mayscript="" hspace="0" vspace="0"><param name="Command" value="NavPane"><param name="CurrentTab" value="Contents"><param name="ContentsFile" value="index.hhc.zip"><param name="IndexFile" value="index.hhk.zip"><param name="SearchFile" value="index.hhs.zip"><param name="ResourceFile" value="webhelp.res"><param name="Frame" value="bsscright"><param name="SyncContentTopic" value="pueblo_overview.html"><param name="BrowserVersion" value="5"></applet>
+
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 19:44:29 Dec 22, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:12:55 Sep 23, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.591
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.011
+  esindex: 0.013
+  cdx.remote: 10.037
+  LoadShardBlock: 252.69 (3)
+  PetaboxLoader3.datanode: 170.337 (4)
+  PetaboxLoader3.resolve: 230.35 (2)
+  load_resource: 169.263
+-->

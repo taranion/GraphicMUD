@@ -1,0 +1,122 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script type="text/javascript" src="xch_device-Dateien/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="xch_device-Dateien/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="xch_device-Dateien/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://pueblo.sourceforge.net:80/doc/manual/html_xch_device.html","20040108181907","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1073585947");
+</script>
+<link rel="stylesheet" type="text/css" href="xch_device-Dateien/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="xch_device-Dateien/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+ <script language="javascript" title="WebHelpSplitCss">
+<!--
+if (navigator.appName=="Netscape")
+{   document.write("<LINK rel='StyleSheet' href='pueblo_ns.css'>");}
+else
+{   document.write("<LINK rel='StyleSheet' href='pueblo.css'>");}
+//-->
+ </script><link rel="StyleSheet" href="xch_device-Dateien/pueblo_ns.css">
+ <title>xch_device</title>
+ <meta name="copyright" value="Copyright © 2001-02 by Ultra Enterprises%date">
+ <meta name="generator" content="RoboHELP by eHelp Corporation www.ehelp.com">
+ <script language="javascript" title="WebHelpInlineScript">
+<!--
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) >= 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+//-->
+ </script>
+ <style>
+<!--
+  div.WebHelpPopupMenu {position:absolute; left:0px; top:0px; z-index:4; visibility:hidden;}
+  p.WebHelpNavBar {text-align:right;}
+-->
+ </style>
+ <script src="xch_device-Dateien/bsscnbar.js" language="JavaScript" title="WebHelpNavBarExtJs">
+ </script>
+ <script language="JavaScript">
+<!--
+ onerror = null; 
+//-->
+ </script>
+ <script language="JavaScript" src="xch_device-Dateien/ehlpdht1.js" title="WebHelpEhlpDhtmExtJs" name="EHELP_DHTM">
+ </script>
+ <script language="JavaScript1.2" src="xch_device-Dateien/ehlpdht2.js" title="WebHelpEhlpDhtmExtJs" name="EHELP_DHTM">
+ </script>
+</head>
+<body>
+ <script language="JavaScript" title="WebHelpNavBar">
+<!--
+gbstrRelHomePageURL="index.html";
+if (parseInt(navigator.appVersion) >=3  && window.name.indexOf("BSSCPopup") == -1)
+{
+var strNvHome=""; var strNvBrowse=""; var strNvWebSearch="";
+strNvBrowse="<a href='html_xch_cmd.html'><img src='bsscnav4.gif' width=27 height=19 border=no></a><a href='html_xch_hint.html'><img src='bsscnav5.gif' width=27 height=19 border=no></a>"
+if ((strNvHome.length != 0) || (strNvBrowse.length != 0) || (strNvWebSearch.length != 0)) {
+  document.write("<p id='NavBar' align='right' class=WebHelpNavBar><nobr><font size=1>");
+  if (strNvHome.length != 0) document.write(strNvHome);
+  if (strNvBrowse.length != 0) document.write(strNvBrowse);
+  if (strNvWebSearch.length != 0) document.write(strNvWebSearch);
+  document.write("</font>&nbsp;&nbsp;&nbsp;</nobr></p>");
+  }
+}
+//-->
+ </script><p id="NavBar" align="right" class="WebHelpNavBar"><nobr><font size="1"><a href="https://web.archive.org/web/20040108181907if_/http://pueblo.sourceforge.net/doc/manual/html_xch_cmd.html"><img src="xch_device-Dateien/bsscnav4.gif" width="27" height="19" border="no"></a><a href="https://web.archive.org/web/20040108181907if_/http://pueblo.sourceforge.net/doc/manual/html_xch_hint.html"><img src="xch_device-Dateien/bsscnav5.gif" width="27" height="19" border="no"></a></font>&nbsp;&nbsp;&nbsp;</nobr></p>
+ <h1><img src="xch_device-Dateien/logo.gif" border="0" height="32" width="33" alt="image\logo.gif">xch_device</h1>
+ <p>Since there are potentially multiple sound devices on client machines, the <font style="font-family:'Courier New'; font-size:9pt; ">xch_device</font> attribute may be used to specify the behavior of individual devices.  The following values may be used with this attribute:</p>
+ <p style="margin-left:70.90pt;text-indent:-42.55pt;"><font style="font-family:'Courier New'; font-size:9pt; ">midi</font>&nbsp;This specifies the MIDI (synthesizer) device.</p>
+ <p style="margin-left:70.90pt;text-indent:-42.55pt;"><font style="font-family:'Courier New'; font-size:9pt; ">wave</font>&nbsp;This specifies the WAVE (waveform audio) device.</p>
+ <p style="margin-left:70.90pt;text-indent:-42.55pt;"><font style="font-family:'Courier New'; font-size:9pt; ">speech</font>&nbsp;This specifies the speech output device.  Note that this is normally the same device as the '<font style="font-family:'Courier New'; font-size:9pt; ">wave</font>' device.  Also note that the speech device is not currently supported by Pueblo.</p>
+ <p style="margin-top:0;margin-bottom:0">&nbsp;</p>
+ <p>Normally you would not specify the <font style="font-family:'Courier New'; font-size:9pt; ">xch_device</font> attribute for an <font style="font-family:'Courier New'; font-size:9pt; ">xch_sound=play</font> or <font style="font-family:'Courier New'; font-size:9pt; ">xch_sound=loop</font> command.  The file will be played on the appropriate device.  For <font style="font-family:'Courier New'; font-size:9pt; ">xch_sound=stop</font>, this attribute tells which device should be stopped.</p>
+ <p style="margin-top:0;margin-bottom:0">&nbsp;</p>
+ <p>If the <font style="font-family:'Courier New'; font-size:9pt; ">xch_device</font> attribute is not specified, it is taken to mean either 'all devices' or 'the appropriate device' depending on context.</p>
+ <p style="margin-top:0;margin-bottom:0">&nbsp;</p>
+ <h3>Examples</h3>
+ <p>The following statement will set the volume for the <font style="font-family:'Courier New'; font-size:9pt; ">wave</font> device to 30:</p>
+ <p style="margin-left:28.35pt;"><font style="font-family:'Courier New'; font-size:9pt; ">&lt;img xch_volume=30 xch_device=wave&gt;</font></p>
+ <p>The following statement will stop any playing music on the <font style="font-family:'Courier New'; font-size:9pt; ">midi</font> device:</p>
+ <p style="margin-left:28.35pt;"><font style="font-family:'Courier New'; font-size:9pt; ">&lt;img xch_sound=stop xch_device=midi&gt; </font></p>
+ <p style="margin-top:0;margin-bottom:0">&nbsp;</p>
+ <h3>Also see</h3>
+ <p style="margin-left:28.35pt;"><a href="https://web.archive.org/web/20040108181907if_/http://pueblo.sourceforge.net/doc/manual/html_xch_sound.html">xch_sound</a> </p>
+ <p style="margin-left:28.35pt;"><a href="https://web.archive.org/web/20040108181907if_/http://pueblo.sourceforge.net/doc/manual/html_xch_volume.html">xch_volume</a> </p>
+ <script language="JavaScript">
+<!--
+if ((parseInt(navigator.appVersion) >= 3) && (typeof(onBsscAutoSync) != "undefined") && (window.name.indexOf("BSSCPopup") == -1))
+	onBsscAutoSync();
+//-->
+ </script>
+
+
+</body></html>
+<!--
+     FILE ARCHIVED ON 18:19:07 Jan 08, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:21:12 Sep 23, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.625
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.012
+  esindex: 0.012
+  cdx.remote: 13.32
+  LoadShardBlock: 93.119 (3)
+  PetaboxLoader3.datanode: 90.035 (4)
+  PetaboxLoader3.resolve: 232.307 (2)
+  load_resource: 241.855
+-->

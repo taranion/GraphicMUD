@@ -1,0 +1,22 @@
+zMUD: <SUPPORTS +a +b +bold +br +c +color +dd +dest +dl +dt +em +expire +font +frame +gauge +h +h1 +h2 +h3 +h4 +h5 +h6 +high +i +image +img +italic +li +music +nobr +ol +p +pass +password +pre +relocate +s +sbr +send +small +sound +stat +strike +strikeout +strong +support +tt +u +ul +underline +user +username +v +var +version +xch_mudtext +xch_page +xch_pane>
+
+Mudlet: <SUPPORTS +a +a.href +a.hint +b +bold +br +color +color.fore +color.back +em +font +font.color +font.back +h +high +i +italic +music +music.fname +music.v +music.l +music.p +music.c +music.t +music.u +s +send +send.href +send.hint +send.prompt +sound +sound.fname +sound.v +sound.l +sound.p +sound.t +sound.u +strikeout +strong +u +underline +var +var.publish>
+
+MUSHclient: <SUPPORTS +head +body +afk +title +username +pass +samp +h +high +i +option +bold +xch_page +reset +strong +recommend_option +support +ul +em +send +send.href +send.hint +send.xch_cmd +send.xch_hint +send.prompt +p +hr +html +user +password +a +a.href +a.xch_cmd +a.xch_hint +underline +b +img +img.src +img.xch_mode +pre +li +ol +c +c.fore +c.back +color +color.fore +color.back +font +font.color +font.back +font.fgcolor +font.bgcolor +u +mxp +mxp.off +version +br +v +var +italic >
+
+
+
+AFK
+====  
+(soll Idle-preventer im client austricksen)
+Server sends: <afk>
+or: <afk challenge=goatsblood>
+
+Client replies:   <AFK 75 >
+or (if a challenge given): <AFK 4 goatsblood>
+
+<recommend_option>
+==================
+Implemented MXP tag <recommend_option> that lets a server recommend that a client option be set. This has to be enabled on the MXP/Pueblo configuration page.
+The options that the server may set are currently: mud_can_change_link_colour, mud_can_remove_underlines, underline_hyperlinks and use_custom_link_colour.
+eg. <recommend_option use_custom_link_colour=0>

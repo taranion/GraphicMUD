@@ -1,0 +1,3090 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<symbolset nr="4" tilesize="16" title="Ultima Vb">
+   <imageFile>Ultima_5_-_Tiles-pc.png</imageFile>
+   <symbols>
+      <symbol title="Explosion">
+         <fore ansi="9"/>
+         <back/>
+         <text ascii="*"/>
+         <image/>
+      </symbol>
+      <symbol id="1" title="High Sea">
+         <fore ansi="4"/>
+         <back/>
+         <text ascii="~"/>
+         <image/>
+      </symbol>
+      <symbol id="2" title="Sea">
+         <fore ansi="4" c256="4"/>
+         <back ansi="12" c256="12"/>
+         <text ascii="~"/>
+         <image/>
+      </symbol>
+      <symbol id="3" title="Sea, Shallow">
+         <fore ansi="12"/>
+         <back ansi="14" c256="33"/>
+         <text ascii=" "/>
+         <image/>
+      </symbol>
+      <symbol id="4" title="Swamp">
+         <fore ansi="12"/>
+         <back ansi="2" c256="2"/>
+         <text ascii="~"/>
+         <image/>
+      </symbol>
+      <symbol id="5" title="Meadow">
+         <fore ansi="2"/>
+         <back ansi="10"/>
+         <text ascii="." cp437="."/>
+         <image/>
+      </symbol>
+      <symbol id="6" title="Bushes">
+         <fore ansi="2" c256="34"/>
+         <back ansi="10" c256="10"/>
+         <text ascii=";" cp437="▞"/>
+         <image/>
+      </symbol>
+      <symbol id="7" title="Desert">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="8" title="Forest, light">
+         <fore ansi="10" c256="10"/>
+         <back ansi="2" c256="2"/>
+         <text ascii=":" cp437="▒"/>
+         <image/>
+      </symbol>
+      <symbol id="9" title="Forest, Medium">
+         <fore ansi="10"/>
+         <back ansi="2"/>
+         <text ascii="f" cp437="▓" utf8="▒"/>
+         <image/>
+      </symbol>
+      <symbol id="10" title="Forest, Dense">
+         <fore ansi="10" c256="34" rgb="3300ff"/>
+         <back ansi="2" c256="2" rgb="ff00ff"/>
+         <text ascii=" " cp437=" "/>
+         <image/>
+      </symbol>
+      <symbol id="11" title="Rocks">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="12" title="Mountain">
+         <fore ansi="7"/>
+         <back/>
+         <text ascii="^" cp437="▲" utf8="⛰️"/>
+         <image/>
+      </symbol>
+      <symbol id="13" title="High Mountain">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="14" title="Meadow -&gt; Rocks">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="15" title="Rocks -&gt; Medaow">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="16" title="Hut">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="17">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="18" title="Keep">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="19" title="Village">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="20" title="Town">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="21" title="Castle">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="22" title="Cave">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="23" title="Mine">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="24" title="Dungeon">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="25" title="Shrine">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="26" title="Shrine, Ruin">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="27" title="Lighthouse">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="28">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="29" title="Bridge H">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="30" title="Transition Desert">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="31" title="Transition Meadow">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="32" title="Street V">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="33" title="Street H">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="34" title="Street NE">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="35" title="Street SE">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="36" title="Street SW">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="37" title="Street NE">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="38" title="Street Crossing">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="39" title="Roof 1">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="40" title="Roof 2">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="41" title="Orb">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="42">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="43" title="Dead Tree">
+         <fore ansi="1"/>
+         <back ansi="10"/>
+         <text ascii="*" cp437="↑"/>
+         <image/>
+      </symbol>
+      <symbol id="44" title="Field, Empty">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="45" title="Field, Full">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="46" title="Tree">
+         <fore ansi="2" c256="2"/>
+         <back ansi="10" c256="10"/>
+         <text ascii="*" cp437="♣" />
+         <image/>
+		<flag>BLOCK_MOVEMENT</flag>
+      </symbol>
+      <symbol id="47" title="Cactus">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="48" title="Way Border N">
+         <fore ansi="2"/>
+         <back ansi="10"/>
+         <text ascii=" "/>
+         <image/>
+      </symbol>
+      <symbol id="49">
+         <fore ansi="2"/>
+         <back ansi="10"/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="50">
+         <fore ansi="2"/>
+         <back ansi="10"/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="51">
+         <fore ansi="2"/>
+         <back ansi="10"/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="52">
+         <fore ansi="10"/>
+         <back ansi="14" c256="33"/>
+         <text ascii="/" cp437="/" utf8="▗"/>
+         <image/>
+      </symbol>
+      <symbol id="53">
+         <fore ansi="10"/>
+         <back ansi="14" c256="33"/>
+         <text ascii="\" cp437="\" utf8="▖"/>
+         <image/>
+      </symbol>
+      <symbol id="54">
+         <fore ansi="10"/>
+         <back ansi="14" c256="33"/>
+         <text ascii="/" utf8="▘"/>
+         <image/>
+      </symbol>
+      <symbol id="55">
+         <fore ansi="10"/>
+         <back ansi="14" c256="33"/>
+         <text ascii="\" utf8="▝"/>
+         <image/>
+      </symbol>
+      <symbol id="56" title="Gargyle">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="57" title="Entry Gargoyle">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="58">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="59">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="60">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="61">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="62">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="63">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="64" title="Floor, Wood">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="65" title="Codex">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="66">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="67">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="68" title="Floor, Stone">
+         <fore ansi="0"/>
+         <back ansi="1"/>
+         <text ascii="." cp437="."/>
+         <image/>
+      </symbol>
+      <symbol id="69" title="Floor, Marble">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="70" title="Pillar">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+         <flag>BLOCK_SIGHT</flag>
+      </symbol>
+      <symbol id="71">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="72">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="73">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="74" title="Embrasure">
+         <fore ansi="8"/>
+         <back ansi="15"/>
+         <text ascii="+"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+      </symbol>
+      <symbol id="75" title="Window">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+      </symbol>
+      <symbol id="76">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="77" title="Stone Wall">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+         <flag>BLOCK_SIGHT</flag>
+      </symbol>
+      <symbol id="78" title="Wall, Hidden Door">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+         <flag>BLOCK_SIGHT</flag>
+      </symbol>
+      <symbol id="79" title="Wall">
+         <fore ansi="7"/>
+         <back ansi="15"/>
+         <text ascii="#"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+         <flag>BLOCK_SIGHT</flag>
+      </symbol>
+      <symbol id="80">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+         <flag>BLOCK_MOVEMENT</flag>
+      </symbol>
+      <symbol id="81">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="82">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="83">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="84">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="85">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="86">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="87">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="88">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="89">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="90" title="Cupboard">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="91" title="Plant">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="92" title="Sideboard L">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="93" title="Sideboard R">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="94">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="95">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="96" title="River V">
+         <fore ansi="14"/>
+         <back ansi="10"/>
+         <text ascii="?" utf8="▉"/>
+         <image/>
+      </symbol>
+      <symbol id="97" title="River H">
+         <fore ansi="14"/>
+         <back ansi="10"/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="98">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="99">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="100">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="101">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="102">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="103">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="104">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="105">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="106" title="Bridge">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="107" title="Bridge">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="108">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="109">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="110">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="111">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="112">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="113">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="114">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="115">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="116">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="117">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="118">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="119">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="120">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="121">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="122">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="123">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="124">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="125">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="126">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="127">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="128">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="129">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="130">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="131">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="132">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="133">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="134">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="135">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="136">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="137" title="Cross">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="138" title="Grave">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="139">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="140" title="Trapdoor">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="141">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="142">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="143">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="144" title="Chair B">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="c" cp437="c"/>
+         <image/>
+      </symbol>
+      <symbol id="145" title="Chair L">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="c"/>
+         <image/>
+      </symbol>
+      <symbol id="146" title="Chair T">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="c"/>
+         <image/>
+      </symbol>
+      <symbol id="147" title="Chair R">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="c" cp437="c"/>
+         <image/>
+      </symbol>
+      <symbol id="148" title="Table L">
+         <fore ansi="9" c256="94"/>
+         <back ansi="1" c256="1"/>
+         <text ascii="+" cp437="╒" utf8="╒"/>
+         <image/>
+      </symbol>
+      <symbol id="149" title="Table M">
+         <fore ansi="9"/>
+         <back ansi="1"/>
+         <text ascii="?" cp437="═" utf8="═"/>
+         <image/>
+      </symbol>
+      <symbol id="150" title="Table R">
+         <fore ansi="9"/>
+         <back ansi="1"/>
+         <text ascii="?" cp437="╕" utf8="╕"/>
+         <image/>
+      </symbol>
+      <symbol id="151" title="Door">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="152" title="Door, Window">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="153">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="154" title="Plate T">
+         <fore ansi="9"/>
+         <back ansi="1"/>
+         <text ascii="-" cp437="═" utf8="═"/>
+         <image/>
+      </symbol>
+      <symbol id="155" title="Plate B">
+         <fore ansi="9"/>
+         <back ansi="1"/>
+         <text ascii="-"/>
+         <image/>
+      </symbol>
+      <symbol id="156" title="Plate TB">
+         <fore ansi="9"/>
+         <back ansi="1"/>
+         <text ascii="-" cp437="═"/>
+         <image/>
+      </symbol>
+      <symbol id="157">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="158">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="159">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="160" title="Sign">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="161" title="Well">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="162">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="163">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="164" title="Sign, Small">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="165" title="Bedside Table">
+         <fore ansi="14"/>
+         <back ansi="1"/>
+         <text ascii="n"/>
+         <image/>
+      </symbol>
+      <symbol id="166" title="Cask">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="o" cp437="Θ"/>
+         <image/>
+      </symbol>
+      <symbol id="167" title="Wine Cask">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="168" title="Dressing Table">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="169" title="Bed L">
+         <fore ansi="14"/>
+         <back ansi="1"/>
+         <text ascii="+" cp437="╤"/>
+         <image/>
+      </symbol>
+      <symbol id="172" title="Bed R">
+         <fore ansi="12"/>
+         <back ansi="1"/>
+         <text ascii="+" cp437="╕"/>
+         <image/>
+      </symbol>
+      <symbol id="171" title="Bed L">
+         <fore ansi="14"/>
+         <back ansi="1"/>
+         <text ascii="+" cp437="╤"/>
+         <image/>
+      </symbol>
+      <symbol id="172" title="Bed R">
+         <fore ansi="12"/>
+         <back ansi="1"/>
+         <text ascii="+" cp437="╕"/>
+         <image/>
+      </symbol>
+      <symbol id="173" title="Dresser">
+         <fore ansi="14"/>
+         <back ansi="1"/>
+         <text ascii="$"/>
+         <image/>
+      </symbol>
+      <symbol id="174" title="Small Table">
+         <fore ansi="14"/>
+         <back ansi="1"/>
+         <text ascii="t"/>
+         <image/>
+      </symbol>
+      <symbol id="175" title="Box">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="b"/>
+         <image/>
+      </symbol>
+      <symbol id="176" title="Torch R">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="!"/>
+         <image/>
+      </symbol>
+      <symbol id="177" title="Torch L">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="!"/>
+         <image/>
+      </symbol>
+      <symbol id="178" title="Brazier">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="179" title="Roast">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="180">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="181">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="182">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="183">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="184" title="Door">
+         <fore ansi="0" c256="0"/>
+         <back ansi="1" c256="94"/>
+         <text ascii="#" cp437="▒"/>
+         <image/>
+      </symbol>
+      <symbol id="185">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="186">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="187">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="188" title="Fireplace">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="189">
+         <fore ansi="7"/>
+         <back ansi="10"/>
+         <text ascii="!"/>
+         <image/>
+      </symbol>
+      <symbol id="190">
+         <fore ansi="11"/>
+         <back ansi="1"/>
+         <text ascii="%" cp437="╧"/>
+         <image/>
+      </symbol>
+      <symbol id="191">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="192">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="193">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="194">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="195">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="196">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="197">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="198">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="199">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="200" title="Ladder Up">
+         <fore ansi="11"/>
+         <back/>
+         <text ascii="#" cp437="↑"/>
+         <image/>
+      </symbol>
+      <symbol id="201" title="Ladder Down">
+         <fore ansi="11"/>
+         <back/>
+         <text ascii="?" cp437="↓"/>
+         <image/>
+      </symbol>
+      <symbol id="202" title="Fence H">
+         <fore ansi="1"/>
+         <back ansi="10"/>
+         <text ascii="-" cp437="┬"/>
+         <image/>
+      </symbol>
+      <symbol id="203" title="Fence V">
+         <fore ansi="1"/>
+         <back ansi="10"/>
+         <text ascii="|"/>
+         <image/>
+      </symbol>
+      <symbol id="204">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="205">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="206">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="207">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="208">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="209">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="210">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="211">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="212" title="Waterfall-1">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="213" title="Waterfall-2">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="214" title="Waterfall-3">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="215" title="Waterfall-4">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="216" title="Fountain-1">
+         <fore ansi="14"/>
+         <back/>
+         <text ascii="@" cp437="♦" utf8="@"/>
+         <image/>
+      </symbol>
+      <symbol id="217" title="Fountain-2">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="218" title="Fountain-3">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="219" title="Fountain-4">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="220" title="Moongate Full">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="221" title="Desert">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="222">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="223" title="Dungeon, blocked">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="224">
+         <fore ansi="7"/>
+         <back ansi="10"/>
+         <text ascii="|" cp437="│"/>
+         <image/>
+      </symbol>
+      <symbol id="225">
+         <fore ansi="7"/>
+         <back ansi="10"/>
+         <text ascii="?" cp437="╒"/>
+         <image/>
+      </symbol>
+      <symbol id="226">
+         <fore ansi="7"/>
+         <back ansi="10"/>
+         <text ascii="+" cp437="╕"/>
+         <image/>
+      </symbol>
+      <symbol id="227">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="228">
+         <fore ansi="14"/>
+         <back ansi="15"/>
+         <text ascii="/" cp437="/" utf8="▗"/>
+         <image/>
+      </symbol>
+      <symbol id="229">
+         <fore ansi="14"/>
+         <back ansi="15"/>
+         <text ascii="?" utf8="▖"/>
+         <image/>
+      </symbol>
+      <symbol id="230">
+         <fore ansi="14"/>
+         <back ansi="15"/>
+         <text ascii="/" utf8="▘"/>
+         <image/>
+      </symbol>
+      <symbol id="231">
+         <fore ansi="14"/>
+         <back ansi="15"/>
+         <text ascii="?" utf8="▝"/>
+         <image/>
+      </symbol>
+      <symbol id="232" title="Hourglass-1">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="233" title="Hourglass-2">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="234" title="Hourglass-3">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="235" title="Hourglass-4">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="236">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="237">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="238">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="239">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="240">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="241">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="242">
+         <fore ansi="14"/>
+         <back/>
+         <text ascii="S"/>
+         <image/>
+      </symbol>
+      <symbol id="243">
+         <fore ansi="13"/>
+         <back/>
+         <text ascii="H"/>
+         <image/>
+      </symbol>
+      <symbol id="244">
+         <fore ansi="14"/>
+         <back/>
+         <text ascii="n"/>
+         <image/>
+      </symbol>
+      <symbol id="245">
+         <fore ansi="9"/>
+         <back/>
+         <text ascii="K"/>
+         <image/>
+      </symbol>
+      <symbol id="246">
+         <fore ansi="14"/>
+         <back/>
+         <text ascii="I"/>
+         <image/>
+      </symbol>
+      <symbol id="247">
+         <fore ansi="10"/>
+         <back/>
+         <text ascii="P"/>
+         <image/>
+      </symbol>
+      <symbol id="248" title="Sign">
+         <fore ansi="11"/>
+         <back ansi="15"/>
+         <text ascii="#" cp437="■"/>
+         <image/>
+      </symbol>
+      <symbol id="249">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="250" title="Grandfather Clock - 1">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="251">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="252" title="Bellows 1">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="253">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="254">
+         <fore/>
+         <back ansi="15"/>
+         <text ascii=" "/>
+         <image/>
+      </symbol>
+      <symbol id="255">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="256">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="257">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="258">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="259">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="260">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="261">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="262">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="263">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="264">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="265">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="266">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="267">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="268">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="269">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="270">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="271">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="272" title="Horse">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="273">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="274">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="275">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="276">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="277">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="278">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="279">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="280">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="281">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="282">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="283" title="Carpet">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="284" title="Avatar">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="285" title="Apparition">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="286">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="287">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="288">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="289">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="290">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="291">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="292">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="293">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="294">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="295">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="296">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="297">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="298">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="299">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="300">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="301">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="302">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="303">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="304">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="305">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="306">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="307">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="308">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="309">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="310">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="311">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="312">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="313">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="314">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="315">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="316">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="317">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="318">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="319">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="320">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="321">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="322">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="323">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="324">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="325">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="326">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="327">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="328">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="329">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="330">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="331">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="332">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="333">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="334">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="335">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="336">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="337">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="338">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="339">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="340">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="341">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="342">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="343">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="344">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="345">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="346">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="347">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="348">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="349">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="350">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="351">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="352">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="353">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="354">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="355">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="356">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="357">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="358">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="359">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="360">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="361">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="362">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="363">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="364">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="365">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="366">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="367">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="368">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="369">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="370">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="371">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="372">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="373">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="374">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="375">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="376">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="377">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="378">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="379">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="380">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="381">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="382">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="383">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="384">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="385">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="386">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="387">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="388">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="389">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="390">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="391">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="392">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="393">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="394">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="395">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="396">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="397">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="398">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="399">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="400">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="401">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="402">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="403">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="404">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="405">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="406">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="407">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="408">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="409">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="410">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="411">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="412">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="413">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="414">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="415">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="416">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="417">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="418">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="419">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="420">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="421">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="422">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="423">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="424">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="425">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="426">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="427">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="428">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="429">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="430">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="431">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="432">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="433">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="434">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="435">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="436">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="437">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="438">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="439">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="440">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="441">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="442">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="443">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="444">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="445">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="446">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="447">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="448">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="449">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="450">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="451">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="452">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="453">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="454">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="455">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="456">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="457">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="458">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="459">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="460">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="461">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="462">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="463">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="464">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="465">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="466">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="467">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="468">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="469">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="470">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="471">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="472">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="473">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="474">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="475">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="476">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="477">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="478">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="479">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="480">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="481">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="482">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="483">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="484">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="485">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="486">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="487">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="488">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="489">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="490">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="491">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="492">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="493">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="494">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="495">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="496">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="497">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="498">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="499">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="500">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="501">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="502">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="503">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="504">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="505">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="506">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="507">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="508">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="509">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="510">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+      <symbol id="511">
+         <fore/>
+         <back/>
+         <text ascii="?"/>
+         <image/>
+      </symbol>
+   </symbols>
+</symbolset>

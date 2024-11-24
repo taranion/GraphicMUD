@@ -1,0 +1,7 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.graphicmud.AddMPLHeader
+description: Convert Foo to Bar.
+recipeList:
+  - org.openrewrite.java.AddLicenseHeader:
+      licenseText: "SPDX-FileCopyrightText: 2024 Stefan Prelle <stefan at prelle dot org>\nSPDX-License-Identifier: MPL-2.0"

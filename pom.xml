@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.graphicmud</groupId>
+  <artifactId>graphicmud-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>GraphicMUD BOM</name>
+  <packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>21</maven.compiler.release>
+	</properties>
+
+	<modules>
+		<module>core</module>
+		<module>connector_discord</module>
+        <module>connector_telegram</module>
+        <module>connector_telnet</module>
+        <module>connector_websocket</module>
+        <module>mudansi</module>
+        <module>plugin-socials</module>
+	</modules>
+
+
+    <dependencyManagement>
+       <dependencies>
+           <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.36</version>
+            </dependency>
+            <dependency>
+              <groupId>com.google.code.gson</groupId>
+              <artifactId>gson</artifactId>
+              <version>2.10.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.graphicmud</groupId>
+                <artifactId>graphicmud-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+	<build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                	<annotationProcessorPaths>
+				        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.36</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
+	
+	<repositories>
+        <repository>
+            <id>oss.sonatype.org-snapshot</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+       </repository>
+    </repositories>
+</project>
